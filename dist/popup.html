@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Save to PromptVault</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body class="bg-slate-900 text-slate-50 text-sm p-4 w-[420px]">
+    
+    <form id="save-form" class="container">
+        <h1 class="title">Save Chat to Vault</h1>
+        
+        <div class="form-group">
+            <label for="title-input">Title</label>
+            <input type="text" id="title-input" class="input-field" required />
+        </div>
+
+        <div class="form-group">
+            <label for="folder-select">Folder (Optional)</label>
+            <select id="folder-select" class="input-field">
+                <option value="unfiled">Unfiled</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="tags-input">Tags (comma-separated)</label>
+            <input type="text" id="tags-input" class="input-field" placeholder="e.g. coding, javascript, ideas" />
+        </div>
+
+        <div class="form-group">
+          <label>Content Preview</label>
+          <p id="content-preview" class="content-preview"></p>
+        </div>
+
+        <div class="actions">
+            <button type="submit" id="save-button" class="button-primary">
+                Save to Vault
+            </button>
+        </div>
+        <p id="status-message" class="status-message"></p>
+    </form>
+
+    <script src="popup.js"></script>
+</body>
+</html>
