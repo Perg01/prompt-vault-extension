@@ -1,0 +1,34 @@
+# Ignore node modules
+node_modules/
+
+# Ignore build/dist output
+dist/
+build/
+
+# Ignore logs and debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore OS and editor junk
+.DS_Store
+Thumbs.db
+*.swp
+
+# Ignore environment variables
+.env
+.env.*
+
+# Ignore Chrome extension packaging artifacts
+*.zip
+*.crx
+
+# Ignore VSCode settings (if applicable)
+.vscode/
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore sourcemaps (optional, for production)
+*.map
