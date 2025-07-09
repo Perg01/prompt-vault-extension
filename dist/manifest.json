@@ -9,7 +9,7 @@
         "type": "module"
     },
     "host_permissions": [
-        "http://localhost:3000/"
+        "https://promptvault.link/"
     ],
     "content_scripts": [
         {
