@@ -9,7 +9,10 @@
         "type": "module"
     },
     "host_permissions": [
-        "https://promptvault.link/"
+        "http://promptvault.link/",
+        "https://promptvault.link/",
+        "http://www.promptvault.link/",
+        "https://www.promptvault.link/"
     ],
     "content_scripts": [
         {

@@ -1,5 +1,5 @@
 // Background script to handle saving the text and make API calls to server.
-const PROMPTVAULT_API_URL = 'http://promptvault.link';
+const PROMPTVAULT_API_URL = 'https://www.promptvault.link';
 
 // This is the main function that will be called when a message is received.
 const saveToVault = async (payload) => {
