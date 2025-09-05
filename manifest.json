@@ -3,7 +3,7 @@
     "name": "PromptVault Saver",
     "version": "0.1.0",
     "description": "Save your ChatGPT conversations directly to your PromptVault.",
-    "permissions": ["activeTab", "cookies", "storage", "notifications", "tabs"],
+    "permissions": ["cookies", "storage", "notifications", "tabs"],
     "background": {
         "service_worker": "background.js",
         "type": "module"
